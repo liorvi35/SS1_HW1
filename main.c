@@ -15,30 +15,29 @@
 int main()
 {
 	int low = 0, high = 0;
-	scanf("%d", &low);
-	scanf("%d", &high);
-	printf("The Armstrong numbers are: ");
+	scanf("%d %d", &low, &high);
+	printf("The Armstrong numbers are:");
 	for(int i = low; i <= high; i++){
-			if(isArmstrong(i) == 1)
-					printf("%d ", i);
+		if(isArmstrong(i) == 1)
+			printf(" %d", i);
 	}
 	printf("\n");
-	printf("The Palindromes numbers are: ");
+	printf("The Palindromes numbers are:");
 	for(int i = low; i <= high; i++){
-			if(isPalindrome(i) == 1)
-					printf("%d ", i);
+		if(isPalindrome(i) == 1)
+			printf(" %d", i);
 	}
 	printf("\n");
-	printf("The prime numbers are: ");
+	printf("The prime numbers are:");
 	for(int i = low; i <= high; i++){
-			if(isPrime(i) == 1)
-					printf("%d ", i);
+		if(isPrime(i) == 1)
+			printf(" %d", i);
 	}
 	printf("\n");
-	printf("The Strong numbers are: ");
+	printf("The Strong numbers are:");
 	for(int i = low; i<=high; i++){
-			if(isStrong(i) == 1)
-					printf("%d ", i);
+		if(isStrong(i) == 1)
+			printf(" %d", i);
 	}
 	return 0;
 }
