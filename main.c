@@ -12,7 +12,7 @@
  * this main function gets input of 2 integers and prints all armstrongs, palindromes, primes, strongs numbers between them
  * @return 0
 */
-void main()
+int main()
 {
 	int low = 0, high = 0;
 	scanf("%d %d", &low, &high);
@@ -44,4 +44,5 @@ void main()
 			printf(" %d", i);
 	}
 	printf("\n");
+	return 0;
 }
