@@ -43,6 +43,6 @@ int main()
 		if(isStrong(i) == 1)
 			printf(" %d", i);
 	}
-	print("\n");
+	printf("\n");
 	return 0;
 }
