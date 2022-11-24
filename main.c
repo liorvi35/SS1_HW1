@@ -28,7 +28,7 @@ int main()
 			printf(" %d", i);
 	}
 	printf("\n");
-	printf("The prime numbers are:");
+	printf("The Prime numbers are:");
 	for(int i = low; i <= high; i++){
 		if(isPrime(i) == 1)
 			printf(" %d", i);
